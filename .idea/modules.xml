@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cff-adapters/cff-adapters.iml" filepath="$PROJECT_DIR$/cff-adapters/cff-adapters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-aggregate.iml" filepath="$PROJECT_DIR$/cff-aggregate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-dependencies/cff-all-dependencies/cff-all-dependencies.iml" filepath="$PROJECT_DIR$/cff-utils/cff-dependencies/cff-all-dependencies/cff-all-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-dependencies/cff-base-dependencies/cff-base-dependencies.iml" filepath="$PROJECT_DIR$/cff-utils/cff-dependencies/cff-base-dependencies/cff-base-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-dependencies/cff-dependencies.iml" filepath="$PROJECT_DIR$/cff-utils/cff-dependencies/cff-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-domains/cff-domains.iml" filepath="$PROJECT_DIR$/cff-domains/cff-domains.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-infras/cff-infras.iml" filepath="$PROJECT_DIR$/cff-infras/cff-infras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-parent/cff-parent.iml" filepath="$PROJECT_DIR$/cff-parent/cff-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-starter/cff-starter.iml" filepath="$PROJECT_DIR$/cff-starter/cff-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-dependencies/cff-starter-dependencies/cff-starter-dependencies.iml" filepath="$PROJECT_DIR$/cff-utils/cff-dependencies/cff-starter-dependencies/cff-starter-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-utils.iml" filepath="$PROJECT_DIR$/cff-utils/cff-utils.iml" />
+    </modules>
+  </component>
+</project>
