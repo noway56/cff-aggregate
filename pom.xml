@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>spring-boot-parent</artifactId>
-        <groupId>org.springframework.boot</groupId>
-        <version>2.3.1.RELEASE</version>
+        <artifactId>cff-parent</artifactId>
+        <groupId>com.cff</groupId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.cff</groupId>
@@ -20,12 +20,34 @@
     </properties>
 
     <modules>
-        <module>cff-parent</module>
         <module>cff-utils</module>
         <module>cff-domains</module>
         <module>cff-adapters</module>
         <module>cff-infras</module>
         <module>cff-starter</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>

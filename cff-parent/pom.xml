@@ -14,10 +14,18 @@
         <maven.compiler.target>8</maven.compiler.target>
         <springboot.version>2.7.8</springboot.version>
         <junit5.version>5.9.2</junit5.version>
+        <hutool.version>5.8.15</hutool.version>
+        <fastjson.version>1.2.79</fastjson.version>
+        <jarslink.version>1.6.1.20180301</jarslink.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.alipay.jarslink</groupId>
+                <artifactId>jarslink-api</artifactId>
+                <version>${jarslink.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -31,6 +39,18 @@
                 <version>${junit5.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-bom</artifactId>
+                <version>${hutool.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

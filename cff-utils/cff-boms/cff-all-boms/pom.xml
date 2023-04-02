@@ -4,13 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <artifactId>cff-parent</artifactId>
+        <groupId>com.cff</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
     <groupId>com.cff</groupId>
-    <artifactId>cff-all-dependencies</artifactId>
+    <artifactId>cff-all-boms</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     
 </project>

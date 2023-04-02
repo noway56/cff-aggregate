@@ -7,24 +7,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cff-starter-dependencies" />
-        <module name="cff-all-dependencies" />
-        <module name="cff-base-dependencies" />
+        <module name="cff-base-bom" />
+        <module name="dynamic-inject" />
+        <module name="cff-domain-user" />
+        <module name="cff-domain-gateway" />
+        <module name="cff-all-boms" />
         <module name="cff-starter" />
+        <module name="module-loader" />
+        <module name="cff-starter-bom" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cff-adapters" target="8" />
       <module name="cff-aggregate" target="8" />
-      <module name="cff-all-dependencies" target="8" />
-      <module name="cff-base-dependencies" target="8" />
-      <module name="cff-dependencies" target="8" />
+      <module name="cff-all-boms" target="8" />
+      <module name="cff-base-bom" target="8" />
+      <module name="cff-boms" target="8" />
+      <module name="cff-commons" target="8" />
+      <module name="cff-domain-gateway" target="8" />
+      <module name="cff-domain-user" target="8" />
       <module name="cff-domains" target="8" />
       <module name="cff-infras" target="8" />
       <module name="cff-parent" target="8" />
       <module name="cff-starter" target="8" />
-      <module name="cff-starter-dependencies" target="8" />
+      <module name="cff-starter-bom" target="8" />
       <module name="cff-utils" target="8" />
+      <module name="dynamic-inject" target="8" />
+      <module name="dynamic-inject (1)" target="8" />
+      <module name="module-loader" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

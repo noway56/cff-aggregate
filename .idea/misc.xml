@@ -4,8 +4,21 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cff-utils/cff-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/cff-domains/cff-domain-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cff-domains/cff-domain-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cff-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/cff-utils/cff-commons/dynamic-inject/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="idea.plugin.psiviewer.controller.project.PsiViewerProjectService">
+    <option name="HIGHLIGHT" value="false" />
+    <option name="FILTER_WHITESPACE" value="false" />
+    <option name="SHOW_PROPERTIES" value="true" />
+    <option name="SPLIT_DIVIDER_POSITION" value="300" />
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+  </component>
 </project>
