@@ -9,7 +9,15 @@
         <option value="$PROJECT_DIR$/cff-domains/cff-domain-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cff-parent/pom.xml" />
         <option value="$PROJECT_DIR$/cff-utils/cff-commons/dynamic-inject/pom.xml" />
+        <option value="$PROJECT_DIR$/cff-domains/cff-domain-book/pom.xml" />
+        <option value="$PROJECT_DIR$/cff-infras/cff-persists/pom.xml" />
+        <option value="$PROJECT_DIR$/cff-infras/cff-persists/cff-persist-book/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cff-utils/cff-boms/cff-mybatis-plus-bom/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

@@ -5,37 +5,28 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>cff-parent</artifactId>
+        <artifactId>cff-infras</artifactId>
         <groupId>com.cff</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/>
     </parent>
     <groupId>com.cff</groupId>
-    <artifactId>cff-starter-bom</artifactId>
+    <artifactId>cff-persists</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <modules>
+        <module>cff-persist-book</module>
+    </modules>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <artifactId>mybatis-plus</artifactId>
         </dependency>
         <dependency>
             <groupId>com.cff</groupId>
@@ -43,5 +34,5 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
+    
 </project>

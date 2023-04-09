@@ -8,11 +8,14 @@
       <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-boms/cff-base-bom/cff-base-bom.iml" filepath="$PROJECT_DIR$/cff-utils/cff-boms/cff-base-bom/cff-base-bom.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-boms/cff-boms.iml" filepath="$PROJECT_DIR$/cff-utils/cff-boms/cff-boms.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-commons/cff-commons.iml" filepath="$PROJECT_DIR$/cff-utils/cff-commons/cff-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-domains/cff-domain-book/cff-domain-book.iml" filepath="$PROJECT_DIR$/cff-domains/cff-domain-book/cff-domain-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-domains/cff-domain-gateway/cff-domain-gateway.iml" filepath="$PROJECT_DIR$/cff-domains/cff-domain-gateway/cff-domain-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-domains/cff-domain-user/cff-domain-user.iml" filepath="$PROJECT_DIR$/cff-domains/cff-domain-user/cff-domain-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-domains/cff-domains.iml" filepath="$PROJECT_DIR$/cff-domains/cff-domains.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-infras/cff-infras.iml" filepath="$PROJECT_DIR$/cff-infras/cff-infras.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-parent/cff-parent.iml" filepath="$PROJECT_DIR$/cff-parent/cff-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-infras/cff-persists/cff-persist-book/cff-persist-book.iml" filepath="$PROJECT_DIR$/cff-infras/cff-persists/cff-persist-book/cff-persist-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cff-infras/cff-persists/cff-persists.iml" filepath="$PROJECT_DIR$/cff-infras/cff-persists/cff-persists.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-starter/cff-starter.iml" filepath="$PROJECT_DIR$/cff-starter/cff-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-boms/cff-starter-bom/cff-starter-bom.iml" filepath="$PROJECT_DIR$/cff-utils/cff-boms/cff-starter-bom/cff-starter-bom.iml" />
       <module fileurl="file://$PROJECT_DIR$/cff-utils/cff-utils.iml" filepath="$PROJECT_DIR$/cff-utils/cff-utils.iml" />

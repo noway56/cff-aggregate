@@ -13,8 +13,10 @@
         <module name="cff-domain-gateway" />
         <module name="cff-all-boms" />
         <module name="cff-starter" />
+        <module name="cff-domain-book" />
         <module name="module-loader" />
         <module name="cff-starter-bom" />
+        <module name="cff-persist-book" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,11 +26,15 @@
       <module name="cff-base-bom" target="8" />
       <module name="cff-boms" target="8" />
       <module name="cff-commons" target="8" />
+      <module name="cff-domain-book" target="8" />
       <module name="cff-domain-gateway" target="8" />
       <module name="cff-domain-user" target="8" />
       <module name="cff-domains" target="8" />
       <module name="cff-infras" target="8" />
+      <module name="cff-mybatis-plus-bom" target="8" />
       <module name="cff-parent" target="8" />
+      <module name="cff-persist-book" target="8" />
+      <module name="cff-persists" target="8" />
       <module name="cff-starter" target="8" />
       <module name="cff-starter-bom" target="8" />
       <module name="cff-utils" target="8" />

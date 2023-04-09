@@ -17,10 +17,27 @@
         <hutool.version>5.8.15</hutool.version>
         <fastjson.version>1.2.79</fastjson.version>
         <jarslink.version>1.6.1.20180301</jarslink.version>
+        <mybatis.plus.version>3.5.0</mybatis.plus.version>
+        <mysql.connector.version>8.0.28</mysql.connector.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.connector.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>${mybatis.plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis.plus.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.alipay.jarslink</groupId>
                 <artifactId>jarslink-api</artifactId>
