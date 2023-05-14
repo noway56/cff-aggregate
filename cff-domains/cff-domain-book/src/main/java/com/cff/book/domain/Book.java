@@ -38,7 +38,7 @@ public class Book {
     /**
      * 出版社
      */
-    private String publish;
+    private String publisher;
 
     private Date pubTime;
 
@@ -46,9 +46,5 @@ public class Book {
     private Integer pages;
 
     private String isbn;
-
-    private String rating;
-
-    private String cover;
 
 }
